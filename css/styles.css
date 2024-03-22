@@ -1,0 +1,155 @@
+/* CSS Document */
+
+
+
+
+/*Alice Font and Sofia Sans Semi Condensed*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+	
+
+
+/* CSS RESET */
+head, title, body, nav, ul, li, main, footer, p, h4, blockquote {
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+}
+
+
+/* Header image */
+
+header {
+	
+	background-size: cover; 
+	background-repeat: none;
+	min-height: 500px;
+	font-family: "Alice", "Sofia Sans Semi Condensed", "sans serif";
+	text-align: center;
+	font-size: 50px;
+	color: #CFBAE4;
+	background-color: #220E3A;
+	border: thick medium #150F1B;
+	border-radius: 12px 12px 12px 12px;
+}
+
+blockquote {
+	font-family: "Alice", "Sofia Sans Semi Condensed", "sans serif";
+	font-size: 2.4em;
+	text-align: center;
+	
+}
+
+/* Navigtation */
+ 
+nav {
+	color: #954730;
+	background: #A56E2C;
+	width: 100%;
+	margin: 4px 0 4px 0;
+	font-size: 1.5em;
+	font-family: "Alice", "Sofia Sans Semi Condensed", "sans serif";
+	text-decoration: none;
+	text-align: center;
+	display: inline-block
+}
+ 
+
+nav li a:hover {
+	color: #B78326;
+	background: #E8C87E;
+	text-decoration: none;
+}
+
+nav li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #52330D;
+	
+}
+
+
+h4 {
+	font-family: "Alice", "Sofia Sans Semi Condensed", "sans serif";
+	text-align: center;
+	font-size: 2.5em;
+}
+
+p {
+	font-family: "Alice", "Sofia Sans Semi Condensed", "sans serif";
+	font-size: 1.5em;
+}
+
+/* Background css */
+
+
+
+
+body p {
+	float:clear; 
+	font-family: "Sofia Sans Semi Condensed","Alice", "sans serif";
+}
+body {
+	background: #5B388D;
+}
+body p img {
+	min-height: 200px;
+	min-width: 100px;
+	float: left;
+}
+
+/* Form rules */
+#container {
+	width: 80%;
+	background: #B49DDC;
+	font-family: "Sofia Sans Semi Condensed","Alice", "sans serif";
+}
+.frmButton {
+	
+	margin-left: 15%;
+	width: 10em;
+	background-color:  #D8AC57;
+	color: #8E611D;
+}
+
+.frmButton:hover {
+	background-color:  #5F2789;
+	color: #AD90DB;
+}
+/* Footer style rules */
+
+
+footer {
+    background-color: #220E3A;
+	text-decoration-color: #F6C0DD;
+	float: clear;
+}
+
+footer nav {
+
+	color: #954730;
+	background: #A56E2C;
+	width: 100%;
+	margin: 4px 0 4px 0;
+	font-size: 1.5em;
+	font-family: "Alice", "Sofia Sans Semi Condensed", "sans serif";
+	text-decoration: none;
+	text-align: center;
+	display: inline-block
+
+}
+footer nav li a:hover {
+	color: #B78326;
+	background: #E8C87E;
+	text-decoration: none;
+}
+
+footer p {
+	font-family: "Alice", "Sofia Sans Semi Condensed", "sans serif";
+	text-align: center;
+	font-size: 0.5em; 
+	float: clear;
+	color: #CFBAE4;
+}
